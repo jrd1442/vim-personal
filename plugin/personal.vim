@@ -16,7 +16,7 @@ endif
 
 colorscheme solarized
 
-let mapleader = ","
+let g:mapleader = ","
 
 nnoremap ; :
 nnoremap : ;
