@@ -8,8 +8,6 @@ else
   let g:loaded_personal = 'yes'
 endif
 
-let g:mapleader = ","
-
 if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
@@ -31,5 +29,11 @@ vnoremap : ;
 
 " disable search highlight
 nnoremap <Leader>/ :noh<cr>
+
+" window shortcuts
+nmap <silent> <C-h> <C-w>h
+nmap <silent> <C-j> <C-w>j
+nmap <silent> <C-k> <C-w>k
+nmap <silent> <C-l> <C-w>l
 
 colorscheme solarized
